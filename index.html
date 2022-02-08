@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Imersão Dev Alura - Aula 01 / Desafio 03</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média</h1>
+    <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+      class="page-logo" alt="">
+    <div class="table-align">
+      <table>
+        <tr>
+          <td class="name-cell">Nota do Primeiro Bimestre:</td>
+          <td class="form-cell"><input id="nota1" type="number" step="0.1"></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Nota do Segundo Bimestre:</td>
+          <td class="form-cell"><input id="nota2" type="number" step="0.1"></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Nota do Terceiro Bimestre:</td>
+          <td class="form-cell"><input id="nota3" type="number" step="0.1"></td>
+        </tr>
+        <tr>
+          <td class="name-cell">Nota do Quarto Bimestre:</td>
+          <td class="form-cell"><input id="nota4" type="number" step="0.1"></td>
+        </tr>
+      </table>
+    </div>
+    <p><label for="notafinal">Nota final: </label><input type="number" id="notafinal" value="Final" disabled></p>
+    <div id="statusfinal">Status</div>
+    <p><button onclick="media()">Calcular Nota Final</button></p>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <footer>
+    <div class="page-subtitle">Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+        href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
